@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "Drivers/BaseLib/Include",
+                "Drivers/BaseLib/Device/Include",
+                "Drivers/RV_Lrh32F0_HAL_Driver/Inc",
+                "Core/Inc"
+            ],
+            "defines": [
+                "RV32F0EC"
+            ],
+            "compilerPath": "/usr/local/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
